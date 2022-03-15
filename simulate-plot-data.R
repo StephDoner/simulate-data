@@ -4,7 +4,8 @@
 #2022.03.15
 
 #simulate predictor variable (x)
-
+x <- rnorm(n = 100)
 #calculate response variable (y) and add noise
-
+y <- 2 * x + rnorm(n = 100, sd = 0.2)
 #plot the data
+plot(x = x, y = y)
